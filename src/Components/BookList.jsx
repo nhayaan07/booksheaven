@@ -1,45 +1,34 @@
-import { useEffect, useState } from "react";
+import useBooks from "../hooks/useBooks";
 
 const BookList = () => {
-const [data , setData] = useState([]);
+  const { books, isLoading } = useBooks();
+  const defaultThumb = "/thumbnail/default.jpg";
 
-// book fetching here
-useEffect(() => {
-  fetch("/Books/books.json")
-    .then(res => {
-      if (!res.ok) throw new Error('Failed to fetch');
-      return res.json();
-    })
-    .then(data => {
-      console.log("Fetched data:", data); // 👈 This will log the data
-      setData(data);
-    })
-    .catch(err => console.error("Error:", err));
-}, []);
-//
-const humayunAhmed = data.find(book => book.category === "HumayunAhmed");
-    return (  
-<div className=" bg-gray-300 min-h-[400px] p-5 sm:px-10 lg:px-50 ">
-<h1 className="text-2xl">Booklist</h1>
+  if (isLoading) return <p className="text-center py-10">Loading…</p>;
 
-<div className="bookCard grid grid-cols-2 md:grid-cols-3  gap-5 justify-center w-full mt-5">
- 
-{humayunAhmed?.books?.map( (cat,idx) => (
-    <div key={idx} className="bg-white p-3">
-    <h1 className="sm:text-xl md:text-2xl">{cat.title}</h1>
-    <p className="">Writer: Humayun Ahmed</p>
-</div>
-)
+  const humayunAhmed = books.find(book => book.category === "HumayunAhmed");
 
+  return (
+    <div className="bg-gray-300 min-h-[400px] p-5 sm:px-10 lg:px-40">
+      <h1 className="text-2xl font-bold">Booklist</h1>
 
-)}
+      <div className="bookCard grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5 justify-center w-full mt-5">
+        {humayunAhmed?.books?.map((book, idx) => (
+          <div key={idx} className="bg-fuchsia-50 p-3">
+            <img
+              className="h-[150px] w-[120px] object-cover mx-auto"
+              src={book.thumb ? book.thumb : defaultThumb}
+              alt={book.title}
+            />
+            <h1 className="sm:text-xl md:text-lg font-semibold text-center mt-3">
+              {book.title}
+            </h1>
+            <p className="text-center">Humayun Ahmed</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-
-</div> {/*grid*/}
-</div>
-
-
-    );
-}
- 
 export default BookList;

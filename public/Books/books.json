@@ -2,13 +2,13 @@
   {
     "category": "HumayunAhmed",
     "books": [
-      { "title": "বৃষ্টি বিলাস" },
-      { "title": "মেঘ বলেছে যাব যাব" },
-      { "title": "নবনী" },
-      { "title": "কোথাও কেউ নেই" },
-      { "title": "তেতুল বনে জোছনা" },
-      { "title": "অপেক্ষা" },
-      { "title": "আয়নাঘর" }
+      { "title": "বৃষ্টি বিলাস" ,"thumb": "/thumbnail/bristibilash.jpg" },
+      { "title": "মেঘ বলেছে যাব যাব" ,"thumb": "/thumbnail/megh_boleche_jabo_jabo.jpg" },
+      { "title": "নবনী" , "thumb": "/thumbnail/noboni.jpg"  },
+      { "title": "কোথাও কেউ নেই" , "thumb": "/thumbnail/kothao_keo_nei.jpg" },
+      { "title": "তেতুল বনে জোছনা" , "thumb": "/thumbnail/tetul_bone_juchna.jpg" },
+      { "title": "অপেক্ষা" , "thumb": "/thumbnail/opekkha.jpg" },
+      { "title": "আয়নাঘর" ,"thumb": "/thumbnail/aynaghor.jpg"  }
     ]
   },
   {
