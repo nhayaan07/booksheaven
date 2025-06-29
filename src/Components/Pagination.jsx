@@ -13,7 +13,7 @@ pages.push(i);
     {
         pages.map((page ,idx)=>
         
-            <button key={idx} onClick={()=> setCurrentPage(page) } className="bg-green-300 hover:bg-red-500 p-2 text-xs focus:bg-red-500">{page}</button>
+            <button key={idx} onClick={()=> setCurrentPage(page) } className="bg-[#22EA21] hover:bg-red-500 p-2 text-xs focus:bg-red-500 ">{page}</button>
         )
     }
     

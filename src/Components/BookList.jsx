@@ -7,7 +7,7 @@ const BookList = () => {
   const defaultThumb = "/thumbnail/default.jpg";
 
 const[CurrentPage ,setCurrentPage] = useState(1);
-const postPerPage = 10;
+const postPerPage = 9;
 const firstIndex = (CurrentPage - 1)*postPerPage;
 const lastIndex = firstIndex + postPerPage;
 
@@ -23,7 +23,7 @@ const lastIndex = firstIndex + postPerPage;
     <div className="min-h-[400px] p-5 sm:px-10 lg:px-50">
       <h1 className="text-2xl font-bold">Booklist</h1>
 
-      <div className="bookCard grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-center  mt-5">
+      <div className="bookCard grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-center  mt-5">
 
         {allBooks.slice(firstIndex,lastIndex).map((book, idx) => (
           <div key={idx} className="bg-gray-50  p-3">
@@ -48,7 +48,7 @@ const lastIndex = firstIndex + postPerPage;
 <div className="min-h-[400px] p-5 sm:px-10 lg:px-50">
       <h1 className="text-2xl font-bold">Humayun Ahmed</h1>
 
-      <div className="bookCard grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-center  mt-5">
+      <div className="bookCard grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 justify-center  mt-5">
 
         {humayunAhmed?.books.slice(0,10).map((book, idx) => (
           <div key={idx} className="bg-gray-50  p-3">
