@@ -1,17 +1,5 @@
 [
   {
-    "category": "HumayunAhmed",
-    "books": [
-      { "title": "বৃষ্টি বিলাস" ,"thumb": "/thumbnail/bristibilash.jpg" , "author": "হুমায়ুন আহমেদ"},
-      { "title": "মেঘ বলেছে যাব যাব" ,"thumb": "/thumbnail/megh_boleche_jabo_jabo.jpg" , "author": "হুমায়ুন আহমেদ"},
-      { "title": "নবনী" , "thumb": "/thumbnail/noboni.jpg"  , "author": "হুমায়ুন আহমেদ"},
-      { "title": "কোথাও কেউ নেই" , "thumb": "/thumbnail/kothao_keo_nei.jpg" , "author": "হুমায়ুন আহমেদ"},
-      { "title": "তেতুল বনে জোছনা" , "thumb": "/thumbnail/tetul_bone_juchna.jpg" , "author": "হুমায়ুন আহমেদ"},
-      { "title": "অপেক্ষা" , "thumb": "/thumbnail/opekkha.jpg" , "author": "হুমায়ুন আহমেদ"},
-      { "title": "আয়নাঘর" ,"thumb": "/thumbnail/aynaghor.jpg"  , "author": "হুমায়ুন আহমেদ"}
-    ]
-  },
-  {
     "category": "অন্যান্য",
     "books": [
       { "title": "আরণ্যক", "author": "বিভুতিভূষণ বন্দোপাধ্যয়" , "thumb": "/thumbnail/aronnok.jpg" },
@@ -27,6 +15,19 @@
       { "title": "প্রহেলিকা", "author": "নাজিমউদ্দৌলা" ,"thumb": "/thumbnail/prohelika.jpg" }
     ]
   },
+  {
+    "category": "HumayunAhmed",
+    "books": [
+      { "title": "বৃষ্টি বিলাস" ,"thumb": "/thumbnail/bristibilash.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "মেঘ বলেছে যাব যাব" ,"thumb": "/thumbnail/megh_boleche_jabo_jabo.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "নবনী" , "thumb": "/thumbnail/noboni.jpg"  , "author": "হুমায়ুন আহমেদ"},
+      { "title": "কোথাও কেউ নেই" , "thumb": "/thumbnail/kothao_keo_nei.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "তেতুল বনে জোছনা" , "thumb": "/thumbnail/tetul_bone_juchna.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "অপেক্ষা" , "thumb": "/thumbnail/opekkha.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "আয়নাঘর" ,"thumb": "/thumbnail/aynaghor.jpg"  , "author": "হুমায়ুন আহমেদ"}
+    ]
+  }
+  ,
   {
     "category": "translated",
     "books": [

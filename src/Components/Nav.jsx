@@ -19,7 +19,7 @@ const Nav = () => {
         <div className="navMenu ">
             <ul className='flex flex-row gap-5 items-center  cursor-pointer text-gray-200'>
                 <li className='hover:text-[#26EB18]'>Categories</li>
-                <li className='hover:text-[#26EB18]'>Fabourite</li>
+                <li className='hover:text-[#26EB18]'>Favourite</li>
                 <li className='hover:text-[#26EB18]'>Review</li>
                 <li className='hover:text-[#26EB18]'>About</li>
 
@@ -41,7 +41,7 @@ const Nav = () => {
 
      <ul className='flex flex-col gap-5 cursor-pointer '>
                 <li className='hover:text-[#4D277B]'>Categories</li>
-                <li className='hover:text-[#4D277B]'>Fabourite</li>
+                <li className='hover:text-[#4D277B]'>Favourite</li>
                 <li className='hover:text-[#4D277B]'>Review</li>
                 <li className='hover:text-[#4D277B]'>About</li>
 
