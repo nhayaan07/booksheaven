@@ -35,7 +35,7 @@ const lastIndex = firstIndex + postPerPage;
             <h3 className="font-semibold text-center mt-3">
               {book.title}
             </h3>
-            <p className="text-center">Humayun Ahmed</p>
+            <p className="text-center text-xs mt-1">{book.author}</p>
           </div>
         ))}
       </div>
@@ -60,7 +60,7 @@ const lastIndex = firstIndex + postPerPage;
             <h3 className="font-semibold text-center mt-3">
               {book.title}
             </h3>
-            <p className="text-center">Humayun Ahmed</p>
+            <p className="text-center text-xs">হুমায়ুন আহমেদ</p>
           </div>
         ))}
       </div>

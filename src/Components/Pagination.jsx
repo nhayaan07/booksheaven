@@ -9,7 +9,7 @@ pages.push(i);
 
     return ( 
 <>
-<div className="flex  flex-row justify-center gap-5">
+<div className="flex  flex-row justify-center gap-5 mt-3">
     {
         pages.map((page ,idx)=>
         

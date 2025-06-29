@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Nav from './Components/Nav'
 import BookList from './Components/BookList'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>    
 <Nav />
 <BookList />
+<Footer />
     </>
   )
 }

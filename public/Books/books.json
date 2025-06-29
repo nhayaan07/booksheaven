@@ -2,39 +2,39 @@
   {
     "category": "HumayunAhmed",
     "books": [
-      { "title": "বৃষ্টি বিলাস" ,"thumb": "/thumbnail/bristibilash.jpg" },
-      { "title": "মেঘ বলেছে যাব যাব" ,"thumb": "/thumbnail/megh_boleche_jabo_jabo.jpg" },
-      { "title": "নবনী" , "thumb": "/thumbnail/noboni.jpg"  },
-      { "title": "কোথাও কেউ নেই" , "thumb": "/thumbnail/kothao_keo_nei.jpg" },
-      { "title": "তেতুল বনে জোছনা" , "thumb": "/thumbnail/tetul_bone_juchna.jpg" },
-      { "title": "অপেক্ষা" , "thumb": "/thumbnail/opekkha.jpg" },
-      { "title": "আয়নাঘর" ,"thumb": "/thumbnail/aynaghor.jpg"  }
+      { "title": "বৃষ্টি বিলাস" ,"thumb": "/thumbnail/bristibilash.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "মেঘ বলেছে যাব যাব" ,"thumb": "/thumbnail/megh_boleche_jabo_jabo.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "নবনী" , "thumb": "/thumbnail/noboni.jpg"  , "author": "হুমায়ুন আহমেদ"},
+      { "title": "কোথাও কেউ নেই" , "thumb": "/thumbnail/kothao_keo_nei.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "তেতুল বনে জোছনা" , "thumb": "/thumbnail/tetul_bone_juchna.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "অপেক্ষা" , "thumb": "/thumbnail/opekkha.jpg" , "author": "হুমায়ুন আহমেদ"},
+      { "title": "আয়নাঘর" ,"thumb": "/thumbnail/aynaghor.jpg"  , "author": "হুমায়ুন আহমেদ"}
     ]
   },
   {
     "category": "অন্যান্য",
     "books": [
-      { "title": "আরণ্যক", "author": "বিভুতিভূষণ বন্দোপাধ্যয়" },
-      { "title": "শেষ বিকেলের মেয়ে", "author": "জহির রায়হান" }
+      { "title": "আরণ্যক", "author": "বিভুতিভূষণ বন্দোপাধ্যয়" , "thumb": "/thumbnail/aronnok.jpg" },
+      { "title": "শেষ বিকেলের মেয়ে", "author": "জহির রায়হান" , "thumb": "/thumbnail/seshBikalerMeye.jpg"}
     ]
   },
   {
     "category": "thriller",
     "books": [
-      { "title": "হেনরি বিনস সিরিজ", "author": "নিক পিরোগ" },
-      { "title": "দি ভিঞ্চি কোড", "author": "ড্যান ব্রাউন" },
-      { "title": "কুহেলিকা", "author": "নাজিমউদ্দৌলা" },
-      { "title": "প্রহেলিকা", "author": "নাজিমউদ্দৌলা" }
+      { "title": "হেনরি বিনস সিরিজ", "author": "নিক পিরোগ" ,"thumb": "/thumbnail/3am.jpg"},
+      { "title": "দি ভিঞ্চি কোড", "author": "ড্যান ব্রাউন" ,"thumb": "/thumbnail/thevinchicode.jpg"},
+      { "title": "কুহেলিকা", "author": "নাজিমউদ্দৌলা" ,"thumb": "/thumbnail/kuhelika.jpg"},
+      { "title": "প্রহেলিকা", "author": "নাজিমউদ্দৌলা" ,"thumb": "/thumbnail/prohelika.jpg" }
     ]
   },
   {
     "category": "translated",
     "books": [
-      { "title": "ড্রাকুলা", "author": "ব্রাম স্টোকার" },
-      { "title": "দি আল কেমিস্ট", "author": "পাওলো কোয়ানহো" },
-      { "title": "ম্যালিস", "author": "কিয়েগো হিগাশিনো" },
-      { "title": "দি ওল্ড ম্যন এন্ড সি", "author": "আনরিলেটেড / -" },
-      { "title": "মরিসাকি বইঘরের দিনগুলি", "author": "সাতোশি ইয়াগিসাওয়া" }
+      { "title": "ড্রাকুলা", "author": "ব্রাম স্টোকার" , "thumb": "/thumbnail/dracula.jpg"},
+      { "title": "দি আল কেমিস্ট", "author": "পাওলো কোয়ানহো" , "thumb": "/thumbnail/thealchemist.jpg" },
+      { "title": "ম্যালিস", "author": "কিয়েগো হিগাশিনো" , "thumb": "/thumbnail/malis.jpg" },
+      { "title": "দি ওল্ড ম্যন এন্ড সি", "author": "আনরিলেটেড / -" , "thumb": "/thumbnail/Oldmansea.jpg"},
+      { "title": "মরিসাকি বইঘরের দিনগুলি", "author": "সাতোশি ইয়াগিসাওয়া" , "thumb": "/thumbnail/morisaki.jpg"}
     ]
   },
   {
