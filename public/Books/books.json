@@ -1,13 +1,13 @@
 [
   {
-    "category": "অন্যান্য",
+    "category": "Others",
     "books": [
       { "title": "আরণ্যক", "author": "বিভুতিভূষণ বন্দোপাধ্যয়" , "thumb": "/thumbnail/aronnok.jpg" },
       { "title": "শেষ বিকেলের মেয়ে", "author": "জহির রায়হান" , "thumb": "/thumbnail/seshBikalerMeye.jpg"}
     ]
   },
   {
-    "category": "thriller",
+    "category": "Thriller",
     "books": [
       { "title": "হেনরি বিনস সিরিজ", "author": "নিক পিরোগ" ,"thumb": "/thumbnail/3am.jpg"},
       { "title": "দি ভিঞ্চি কোড", "author": "ড্যান ব্রাউন" ,"thumb": "/thumbnail/thevinchicode.jpg"},
@@ -29,7 +29,7 @@
   }
   ,
   {
-    "category": "translated",
+    "category": "Translated",
     "books": [
       { "title": "ড্রাকুলা", "author": "ব্রাম স্টোকার" , "thumb": "/thumbnail/dracula.jpg"},
       { "title": "দি আল কেমিস্ট", "author": "পাওলো কোয়ানহো" , "thumb": "/thumbnail/thealchemist.jpg" },
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "category": "islamic",
+    "category": "Islamic",
     "books": [
       { "title": "আরব কন্যার আর্তনাদ", "author": "আল তামাস" },
       { "title": "বেলা ফুরাবার আগে", "author": "আরিফ আজাদ" },
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "category": "history",
+    "category": "History",
     "books": [
       { "title": "তিনটি সেনা অভভুথান ও কিছু না বলা কথা", "author": "কর্নেল হামিদ" },
       { "title": "আমার ফাঁসি চাই", "author": "-" },

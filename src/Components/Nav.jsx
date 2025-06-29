@@ -18,10 +18,11 @@ const Nav = () => {
     <div className="rightSide hidden md:block">
         <div className="navMenu ">
             <ul className='flex flex-row gap-5 items-center  cursor-pointer text-gray-200'>
-                <li className='hover:text-[#26EB18]'>Categories</li>
-                <li className='hover:text-[#26EB18]'>Favourite</li>
-                <li className='hover:text-[#26EB18]'>Review</li>
-                <li className='hover:text-[#26EB18]'>About</li>
+
+                <Link to="/all-categories"> <li className='hover:text-[#26EB18]'>Categories</li> </Link>
+               <Link to="#"> <li className='hover:text-[#26EB18]'>Favourite</li> </Link>
+               <Link to="#"> <li className='hover:text-[#26EB18]'>Review</li> </Link>
+               <Link to="#"> <li className='hover:text-[#26EB18]'>About</li> </Link>
 
 
 
@@ -39,11 +40,11 @@ const Nav = () => {
 </div> {/* container div */}
 <div className={`mobileNavContainer w-full min-h-[150px] bg-[#e8e8e8] p-3  ${open? "flex" : "hidden"}`}>
 
-     <ul className='flex flex-col gap-5 cursor-pointer '>
-                <li className='hover:text-[#4D277B]'>Categories</li>
-                <li className='hover:text-[#4D277B]'>Favourite</li>
-                <li className='hover:text-[#4D277B]'>Review</li>
-                <li className='hover:text-[#4D277B]'>About</li>
+     <ul className='flex flex-col gap-5 cursor-pointer w-full'>
+               <Link to="/all-categories"> <li className='hover:text-[#4D277B] bg-[#fcfcfc] font-semibold p-2'>Categories</li> </Link>
+               <Link to="#"> <li className='hover:text-[#4D277B] bg-[#fcfcfc] font-semibold p-2'>Favourite</li> </Link>
+               <Link to="#"> <li className='hover:text-[#4D277B] bg-[#fcfcfc] font-semibold p-2'>Review</li> </Link>
+               <Link to="#"> <li className='hover:text-[#4D277B] bg-[#fcfcfc] font-semibold p-2'>About</li> </Link>
 
 
 
