@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import useBlogs from "../hooks/useBlogs";
+import AllBooks from "./AllBooks";
 
 
 const BlogPage = () => {
@@ -23,6 +24,8 @@ const BlogPage = () => {
       <p className="mb-3 text-base" key={i}>{para}</p>
     ))}
   </div>
+        <AllBooks />
+
 </div>
 
   );
