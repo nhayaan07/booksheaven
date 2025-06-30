@@ -1,11 +1,5 @@
 [
-  {
-    "category": "Others",
-    "books": [
-      { "title": "আরণ্যক", "author": "বিভুতিভূষণ বন্দোপাধ্যয়" , "thumb": "/thumbnail/aronnok.jpg" },
-      { "title": "শেষ বিকেলের মেয়ে", "author": "জহির রায়হান" , "thumb": "/thumbnail/seshBikalerMeye.jpg"}
-    ]
-  },
+  
   {
     "category": "Thriller",
     "books": [
@@ -62,6 +56,13 @@
       { "title": "তিনটি সেনা অভভুথান ও কিছু না বলা কথা", "author": "কর্নেল হামিদ" },
       { "title": "আমার ফাঁসি চাই", "author": "-" },
       { "title": "প্রিজনার্স অভ জিওগ্রাফি", "author": "টিম মার্শাল" }
+    ]
+  },
+  {
+    "category": "Others",
+    "books": [
+      { "title": "আরণ্যক", "author": "বিভুতিভূষণ বন্দোপাধ্যয়" , "thumb": "/thumbnail/aronnok.jpg" },
+      { "title": "শেষ বিকেলের মেয়ে", "author": "জহির রায়হান" , "thumb": "/thumbnail/seshBikalerMeye.jpg"}
     ]
   }
 ]

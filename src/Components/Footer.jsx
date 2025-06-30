@@ -1,6 +1,8 @@
+
 const Footer = () => {
     return (
 
+        
        <div className="footer bg-[#4D277B] p-3">
         <div className=" ">
 
