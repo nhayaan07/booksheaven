@@ -15,7 +15,7 @@ const CategoryPage = () => {
   if (!categoryObj) return <p>No books found for this category.</p>;
 
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden min-h-screen">
 
 
 <div className="min-h-[400px] p-5 sm:px-10 lg:px-50">

@@ -8,7 +8,7 @@ const AllCategories = () => {
     //console.log(books.map((book)=> book.category));
     return ( 
 
-        <div className="p-2 container mx-auto">
+        <div className="p-2 container mx-auto min-h-screen">
 <h1 className="text-xl font-bold underline">Categories</h1>
 <br />
 <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">

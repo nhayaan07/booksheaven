@@ -7,7 +7,7 @@ const AllBooks = () => {
       const defaultThumb = "/thumbnail/default.jpg";
     
     const[CurrentPage ,setCurrentPage] = useState(1);
-    const postPerPage = 6;
+    const postPerPage = 9;
     const firstIndex = (CurrentPage - 1)*postPerPage;
     const lastIndex = firstIndex + postPerPage;
     

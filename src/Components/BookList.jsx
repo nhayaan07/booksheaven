@@ -15,7 +15,7 @@ const lastIndex = firstIndex + postPerPage;
 
   const humayunAhmed = books.find(book => book.category === "HumayunAhmed");
   //console.log(humayunAhmed.books.length);
-  const allBooks = books.flatMap(book => book.books);
+  const allBooks = books.flatMap(book => book);
   
 
   return (
